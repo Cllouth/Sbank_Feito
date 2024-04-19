@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBank</title>
+    <link rel="icon" href="img/sbank.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- no header estão presente as informações que devem ficar em destaque para que possa facilitar a navegação, 
+    dando assim destaque as informações contidas no topo da Landing page. -->
+    <header>
+            <!-- Logo da empresa ficticia que escolhemos -->
+            <img src="img/sbank.png" alt="" id="logo">
+
+            <!-- divs contendo as informações da barra superior, como uma barra de navegação pela landing page -->
+            <div class="divs_header">
+                <p id="paravc">Para Você</p>
+                <img src="img/seta baixo.png" alt="">
+            </div>
+
+            <div class="divs_header">
+                <p id="osbank">O SBank</p>
+                <img src="img/seta baixo.png" alt="">
+            </div>
+
+            <div class="divs_header">
+                <p id="login">Login</p>
+                <img class="img_login" src="img/icone_login.png" alt="">
+            </div>
+    </header>
+    
+        <!-- na main temos todas as infos da landing page, com seus devidos desaques, trazendo as informações disponibilizadas para o desenvolvimento da pagina -->
+
+    <main>
+        <!-- Aqui temos a frase que guia a estética da página, junto de uma imagem para ilustrar a estética e tambem  uma box para cadastro de recebimento do cartão físico -->
+        <section class="main_topo">
+            <h2 class="titulo_main">Milhares de benefícios em um só banco</h2>
+
+            <section class="bloco_forms">                
+                <section class="formulario">
+                    <h2 class="texto_formulario">Solicite cartão físico:</h2>
+                    <input type="text" class="input_formulario" placeholder="Endereço eletronico aqui">
+                </section>
+            </section>
+        </section>    
+
+<!-- Aqui temos o carrossel de exibição dos benefícios que foram disponibilzados pelo Sbank -->
+
+        <section class="carrossel">
+            <section class="seta_esquerda">
+                <img id="setas" src="img/Seta esquerda.png" alt="" srcset="">
+            </section>
+
+            <section class="bloco">
+                <p> Benefícios </p>
+                <p> Cartão físico e digital sem taxas </p>
+            </section>
+
+            <section class="bloco">
+                <p> Vantagens </p>
+                <p> Conta corrente digital  </p>
+            </section>
+
+            <section class="bloco">
+                <p> Segurança</p>
+                <p> Contas criptografadas de ponta a ponta </p>
+            </section>
+
+            <section class="seta_direita">
+                <img id="setas" src="img/Seta direita.png" alt="" srcset="">
+            </section>
+        </section>
+
+<!-- aqui temos um formulário de cadastro dentro da landing page -->
+
+        <section class="forms_cadastro">
+            <div class="container">
+                <h1>Complete o cadastro para receber seu cartão digital</h1>
+
+                <form action="#">
+                    <section class="bloco_inputs">
+                        <input class="input_forms" type="text" id="cpf" name="cpf" placeholder="CPF" required>
+                        <input class="input_forms" type="text" id="fullname" name="fullname" placeholder="Nome Completo" required>
+                        <input class="input_forms" type="tel" id="phone" name="phone" placeholder="Celular">
+                        <input class="input_forms" type="email" id="email" name="email" placeholder="E-mail" required>
+                    </section>
+
+                    <div class="div_checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter" required>
+                        <label for="newsletter">Aceito receber Informações pelo E-mail.</label>
+                    </div>
+                    
+                    <div class="div_checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Eu li, e estou ciente dos termos acordados nesta <span class="texto_grifado"> política de privacidade. </span></label>
+                    </div>
+
+                    <div class="forms_botao" id="botao_submit">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- aqui temos o Endereço fictico e paginas de divulgação da marca -->
+    <footer>
+        <section class="parte_esquerda">
+            <section class="footer_logo">
+                <img src="img/logo_footer.png" alt="">
+            </section>
+    
+            <section class="footer_infos">
+                <h2>© 2024 - SBank Instituição Bancária S.A. CNPJ: 12.642.125/0001-42</h2>
+                
+                <h2>Av. Theodomiro da Fonseca, 512 - São Leopodlo, RS - 93240-290</h2>
+            </section>
+        </section>
+
+        <section class="redes">
+            <a href="https://www.facebook.com/nubank/?locale=pt_BR" target="_blank"><img src="./img/facebook.png" alt="" ></a>
+            <a href="https://www.instagram.com/nubank/?hl=pt-br" target="_blank"><img src="./img/Icon_instagram.png" alt=""></a>
+            <a href="https://twitter.com/nubank?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="./img/Icon_twitter.png" alt=""></a>
+            <a href="https://chat.whatsapp.com/BkyO1ySa3bJJhpJ761kHKn" target="_blank"><img src="./img/whatsapp.png" alt=""></a>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
