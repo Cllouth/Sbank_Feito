@@ -18,7 +18,8 @@
    
   * Construção do HTML;
   * Construção da responsividade do site;
-  * Construção do Css do site.
+  * Construção do Css do site;
+  * Construção do Banco de dados
 
 <h3> Rafael Duarte Werpp </h3>
    
